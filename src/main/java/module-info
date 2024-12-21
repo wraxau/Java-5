@@ -1,0 +1,10 @@
+module com.elevator {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires javafx.graphics;
+
+    exports com.elevator;
+    exports com.elevator.system;
+    exports com.elevator.model;
+    exports com.elevator.uni;
+}
